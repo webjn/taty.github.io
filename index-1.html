@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/style-1.css" />
+  </head>
+  <body>
+    <div id="passwordPrompt" class="password-prompt">
+      <h5>Please enter the password to access the content:</h5>
+      <input
+        type="password"
+        id="passwordInput"
+        placeholder="Enter password..."
+      />
+      <button onclick="checkPassword()">Submit</button>
+    </div>
+
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <div id="content" class="content hidden">
+      <div class="header">
+        <h1>Memories Worth Keeping</h1>
+        <p>Relive the happy moments and special occasions we shared together</p>
+      </div>
+
+      <div class="gallery">
+        <div class="gallery-item">
+          <img src="images/frensh-kiss.jpg" alt="Happy Moment 1" />
+          <p class="caption">
+            hun mfi de3e khabrek 3an l shu3ur kif l vd bzkrk bshu3ure:p
+          </p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/joe-neck.jpeg" alt="Happy Moment 2" />
+          <p class="caption">hun hel bsir fiye mn baad l video :/</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/Taty-neck.jpg" class="kiss" alt="Happy Moment 2" />
+          <p class="caption">hun lama ente twrjine juji shu 3eml :p</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/layalina-photo.jpg" alt="Happy Moment 2" />
+          <p class="caption">
+            hun hyda abel ma nfut aa game zone w nkhtfe 3-4 hours :p
+          </p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/joe-ghenej.jpg" class="last" alt="Happy Moment 2" />
+          <p class="caption">hun lama ken juji yt8naj 3a taty</p>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="images/sarnay-photo.jpg"
+            class="last"
+            alt="Happy Moment 2"
+          />
+          <p class="caption">
+            hun lama juji ken l bodyguards la taty mbkhliya t8asel w7da
+          </p>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="images/taty-edit-joe-img.jpg"
+            class="last"
+            alt="Happy Moment 2"
+          />
+          <p class="caption">hun taty lama tsawer joe w t3ml edit la sura</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/joe-work.jpg" class="last" alt="Happy Moment 2" />
+          <p class="caption">
+            hun joe lama neje7 b sh8lo laen ente 7edo, w bdel kmn le ken aasabe
+            waeta
+          </p>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="images/byblos-beach.jpg"
+            class="last"
+            alt="Happy Moment 2"
+          />
+          <p class="caption">hun l a3de l romanciyeh bi jbeil maa baad :p</p>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="images/Screenshot_20221113-005027_Instagram.jpg"
+            class="last"
+            alt="Happy Moment 2"
+          />
+          <p class="caption">
+            hun l ken joe ylaab ps w taty derbo laen ma eenda ru7 riyadiyeh💖
+          </p>
+        </div>
+        <div class="gallery-item">
+          <img src="images-2/img-1.jpg" class="last" alt="Happy Moment 2" />
+          <p class="caption">hun lama taty te8ri la joe aal vd ta yeje yekla</p>
+        </div>
+        <!-- <div class="gallery-item">
+        <img src="images-2/img-3.jpg" class="last" alt="Happy Moment 2" />
+        <p class="caption">hun taty lama kent t2tlne :/</p>
+      </div> -->
+        <div class="gallery-item">
+          <img src="images-2/img-4.jpg" class="last" alt="Happy Moment 2" />
+          <p class="caption">hun taty lama tkune mam7une aa joe</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images-2/img-5.png" class="last" alt="Happy Moment 2" />
+          <p class="caption">
+            hun taty lama kent twdile eshya w ts2lne iza mnaamol recreate:p
+          </p>
+        </div>
+        <div class="gallery-item">
+          <img src="images-2/img-6.jpg" class="last" alt="Happy Moment 2" />
+          <p class="caption">
+            hun taty lama kent 7ade bi awal mchru3 bi 7ayete
+          </p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/joe-gym.jpg" class="last" alt="Happy Moment 2" />
+          <p class="caption">hun lama swarte daddy bl gym</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images-2/img-7.jpg" class="last" alt="Happy Moment 2" />
+          <p class="caption">
+            hun lama joe taty keno mkbshin bi baad bl pecine
+          </p>
+        </div>
+        <div class="gallery-item">
+          <img src="images-2/img-8.jpg" class="last" alt="Happy Moment 2" />
+          <p class="caption">
+            hun mbde e7ke aya shi 8er eno a7la sura bl nsbe ele, btjm3e kel shi
+            7eki w ra7 e7ki mwjudin bi hyde l sura💖
+          </p>
+        </div>
+        <div class="gallery-item">
+          <img src="images-2/img-10.jpg" class="last" alt="Happy Moment 2" />
+          <p class="caption">hun taty lama tkun 3yuna w chfefa anh</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images-2/img-11.jpg" class="last" alt="Happy Moment 2" />
+          <p class="caption">hun tuty lama taate 3emer bl 25</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images-2/img-12.jpg" class="last" alt="Happy Moment 2" />
+          <p class="caption">
+            hun lama taty btkun hebba joe, ignore l habe:p anw ra7et
+          </p>
+        </div>
+        <div class="gallery-item">
+          <img src="images-2/img-13.jpg" class="last" alt="Happy Moment 2" />
+          <p class="caption">
+            hun lama bs joe yshuf l sura ysir bado yenzal yeklik
+          </p>
+        </div>
+        <div class="gallery-item">
+          <img src="images-2/img-14.jpg" class="last" alt="Happy Moment 2" />
+          <p class="caption">
+            hun taty lama t2arer bl la wa3e eno trfa3 d8t joe laen nzlta story
+          </p>
+        </div>
+        <div class="gallery-item">
+          <img src="images-2/img-15.jpg" class="last" alt="Happy Moment 2" />
+          <p class="caption">hun 3yunik atlune</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images-2/img-16.jpg" class="last" alt="Happy Moment 2" />
+          <p class="caption">
+            mb3rf aan shu e7ke? 3yunik? no hkit 3anon , chfefik? kmn no hkit,
+            mnkharik? btaarfe ene bheb eklo:p hun dkhl din tiz rab l jamel
+          </p>
+        </div>
+        <div class="gallery-item">
+          <img src="images-2/img-17.jpg" class="last" alt="Happy Moment 2" />
+          <p class="caption">
+            hun bshil eje ekhtfik w dal raye7 la asbeb khasa:p
+          </p>
+        </div>
+      </div>
+      <div class="vid">
+        <video src="images/VID-20221109-WA0005.mp4" muted autoplay></video>
+        <p class="caption">mfi 7ake :p</p>
+      </div>
+    </div>
+    <script src="js/password-1.js"></script>
+  </body>
+</html>
