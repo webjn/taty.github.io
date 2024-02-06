@@ -1,5 +1,5 @@
 // Correct password
-const correctPassword = "123";
+const correctPassword = "1234";
 
 // Function to check the entered password
 function checkPassword() {
