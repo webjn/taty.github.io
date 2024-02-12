@@ -1,5 +1,5 @@
 // Correct password
-const correctPassword = "##1Taty1##@2024";
+const correctPassword = "##1Taty1##@2023";
 
 // Function to check the entered password
 function checkPassword() {
